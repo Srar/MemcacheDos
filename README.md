@@ -14,6 +14,12 @@ npm install
   > CentOS7, nodejs v6.12.3 yum安装
 * `npm install`安装`raw-socket`时出现错误
   > 使用`npm install --unsafe` 
+* 反射无效果
+  > 机房已经拦截了伪造IP的数据包
+* 反射倍率
+  > 目前反射倍率60倍. 可以自行先`set`一段较大的数据, 再使用此数据来反射, 据说倍率可以到4w倍.
+
+> 全部issues不作回答.
 
 # 相关新闻
 * [Memcrashed - Major amplification attacks from UDP port 11211](https://blog.cloudflare.com/memcrashed-major-amplification-attacks-from-port-11211/)
